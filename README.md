@@ -9,7 +9,7 @@ React responsive Gym Website using ReactJs
 
 
 ## Website Link 💻
-{https://66ec2043f8bce6aa9449a95a--deft-youtiao-d886f7.netlify.app/}
+(https://66ec2043f8bce6aa9449a95a--deft-youtiao-d886f7.netlify.app/)
 
 ## Technologies used 🛠️
 **Design**: *Css & Styled Components*<br />
