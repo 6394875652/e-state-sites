@@ -1,6 +1,6 @@
 ## E-state site 🎯
 
-React responsive Gym Website using ReactJs 
+React responsive E-state Website using ReactJs 
 
 
 
