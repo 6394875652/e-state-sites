@@ -13,7 +13,7 @@ React responsive E-state Website using ReactJs
 
 ## Technologies used 🛠️
 **Design**: *Css & Styled Components*<br />
-**Libraries**: <br />
+ <br />
     - **ract-hook**: for state management <br />
     - **material-icon**: for good icon <br />
     - **bootstrap**: well structured navbar used <br />
