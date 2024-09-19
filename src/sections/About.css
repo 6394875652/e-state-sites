@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .main_content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; /* Adjust space between items */
+    align-items: center; /* Aligns items vertically */
+    padding: 20px;
+    gap: 20px; /* Adds space between the flex items */
+    width: 90%;
+    margin: auto;
+    background-color: rgb(248, 236, 238);
+  }
+  
+  /* Left section styling (image) */
+  .left {
+    flex: 1;
+    max-width: 45%; /* Control the maximum width */
+    min-width: 300px; /* Minimum width for responsiveness */
+  }
+  
+  .left img {
+    width: 100%; /* Make image responsive */
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  /* Right section styling */
+  .right {
+    flex: 1;
+    max-width: 45%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column; /* Stack right_up and right_down */
+    justify-content: space-between; /* Push content vertically */
+  }
+  
+  /* Styling for the upper part of the right section */
+  .right_up h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .right_up h5 {
+    font-size: 1.1rem;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  /* Button styling in right_down section */
+  .right_down {
+    display: flex;
+    justify-content: flex-start; /* Align button to the left */
+  }
+  
+  .btnn {
+    padding: 0.8rem 1rem;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    margin-right: 20px;
+    width: 150px; /* Set a fixed width for the button */
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btnn:hover {
+    background-color: darkred;
+  }
+  
+  /* Media query for responsiveness */
+  @media (max-width: 768px) {
+    .left, .right {
+      max-width: 100%; /* Full width on smaller screens */
+      min-width: 100%;
+      margin-bottom: 20px;
+    }
+    
+    .right {
+      align-items: center; /* Center content on smaller screens */
+    }
+  
+    .right_down {
+      justify-content: center; /* Center button on smaller screens */
+    }
+  
+    .btnn {
+      width: 100%; /* Full width button on smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .right_up h2 {
+      font-size: 1.5rem; /* Smaller heading on small screens */
+    }
+  
+    .right_up h5{
+      font-size: 1rem;
+    }
+  
+    .btnn {
+      font-size: 0.9rem;
+      padding: 0.6rem 0.8rem; 
+    }
+  }
+  
+  

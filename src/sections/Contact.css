@@ -1,0 +1,93 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  .contact {
+    width: 90%;
+    margin:50px auto; 
+    /* max-width: 600px;  */
+    padding: 20px;
+    /* background-color: #f9f9f9;  */
+    background-color: rgb(248, 236, 238);
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+  }
+  
+  .contact h2 {
+    font-size: 1.8rem; /* Heading size */
+    margin-bottom: 20px;
+    color: #333; /* Darker text for readability */
+  }
+  
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact input[type="number"]
+   {
+    width: 80%; /* Make the inputs fill the form's width */
+    padding: 10px;
+    margin: 10px 0; /* Add vertical space between inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Slightly rounded corners */
+    font-size: 1rem; /* Make input text readable */
+    transition: border-color 0.3s; /* Smooth focus effect */
+  }
+  
+  /* Change the border color on focus */
+  .contact input:focus {
+    border-color: #007BFF; /* Blue border on focus */
+    outline: none;
+  }
+  
+  .contact button {
+    width: 80%;
+    padding: 12px;
+    margin-top: 15px;
+    background-color: red; /* Primary blue color */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded button */
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .contact textarea {
+    width: 80%; 
+    height: 150px; 
+    padding: 10px;
+    margin: 10px 0; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    resize: vertical; 
+    transition: border-color 0.3s; 
+  }
+  
+  
+  .contact button:hover {
+   
+    background-color: darkred;
+    
+  }
+  
+  
+  @media (max-width: 768px) {
+    .contact {
+      width: 95%; /* Use more width on mobile */
+      padding: 15px;
+    }
+  
+    .contact h2 {
+      font-size: 1.5rem; /* Smaller heading on mobile */
+    }
+  
+    .contact input,
+    .contact button {
+      font-size: 1rem; /* Adjust input and button size for mobile */
+    }
+  }
+  
